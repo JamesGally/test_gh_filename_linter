@@ -31,4 +31,4 @@ jobs:
           # The path to a directory to check the filenames.
           path: ./test/
           # The regex pattern to match for each of the files in the given directory
-          pattern: /^\d{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01])$/
+          pattern: ^\d{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01])$
