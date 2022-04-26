@@ -29,6 +29,6 @@ jobs:
         uses: batista/lint-filenames@v1.0.1
         with:
           # The path to a directory to check the filenames.
-          path: /B/
+          path: ./1/B/
           # The regex pattern to match for each of the files in the given directory
           pattern: ^\d{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01])
